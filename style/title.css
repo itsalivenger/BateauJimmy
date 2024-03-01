@@ -1,0 +1,50 @@
+.titleSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0.5em;
+}
+
+.titleContainer h1 {
+  color: #e92448;
+}
+
+.titleContainer p {
+  color: white;
+}
+
+.titleSection .titleContainer {
+  text-align: center;
+  width: 50%;
+}
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.responsive-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e92448;
+  color: white;
+  font-size: 16px;
+  width: 200px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .responsive-container button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .titleSection .titleContainer {
+    width: 90%;
+  }
+}
